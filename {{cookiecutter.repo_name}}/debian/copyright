@@ -1,14 +1,14 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: {{ PROJECT NAME }}
-Source: https://github.com/{{ SOURCE LOCATION/HOMEPAGE }}
+Upstream-Name: {{ cookiecutter.modulename }}
+Source: {{ cookiecutter.homepage }}
 
 Files: *
-Copyright: {{ COPYRIGHT HOLDERS }}
-License: {{ LICENSE NAME }}
+Copyright: TODO
+License: TODO
 
 Files: debian/*
 Copyright: 2019 Canonical Ltd
-License: {{ LICENSE NAME }}
+License: TODO
 
 License: Apache-2
  Licensed under the Apache License, Version 2.0 (the "License");

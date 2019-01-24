@@ -1,4 +1,4 @@
-python-{{ MODULENAME }} (0.0.0-0ubuntu1) UNRELEASED; urgency=low
+{{ cookiecutter.repo_name }} ({{ cookiecutter.version }}-0ubuntu1) UNRELEASED; urgency=low
 
   * Initial release.
 
