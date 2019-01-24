@@ -18,3 +18,5 @@ Then:
  - Review the d/copyright file - copyright will need documenting for
    upload to Ubuntu in the longer term so needs to be completed based
    on the information in the source files for the module.
+
+[![asciicast](https://asciinema.org/a/NdaokXoy2C9WsPsXiIia9qcgP.svg)](https://asciinema.org/a/NdaokXoy2C9WsPsXiIia9qcgP)
