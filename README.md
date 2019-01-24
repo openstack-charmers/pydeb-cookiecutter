@@ -3,6 +3,7 @@
 First
 
 ```
+sudo apt -y install cookiecutter
 cookiecutter https://github.com/openstack-charmers/pydeb-cookiecutter
 ```
 
