@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: {{ cookiecutter.maintainer }}
 Build-Depends:
- debhelper (>= 10~),
+ debhelper (>= 11~),
  dh-python,
  python-all,
  python-setuptools,
@@ -12,10 +12,10 @@ Build-Depends:
 Build-Depends-Indep:
  python-mock,
  python3-mock,
-Standards-Version: 4.1.3
+Standards-Version: 4.2.1
 Homepage: {{ cookiecutter.homepage }}
 Vcs-Browser: https://git.launchpad.net/~ubuntu-server-dev/ubuntu/+source/{{ cookiecutter.repo_name }}
-Vcs-Git: git://git.launchpad.net/~ubuntu-server-dev/ubuntu/+source/{{ cookiecutter.repo_name }}
+Vcs-Git: https://git.launchpad.net/~ubuntu-server-dev/ubuntu/+source/{{ cookiecutter.repo_name }}
 
 Package: python-{{ cookiecutter.modulename }}
 Architecture: all
