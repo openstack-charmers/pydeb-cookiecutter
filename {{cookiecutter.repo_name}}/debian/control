@@ -11,8 +11,8 @@ Build-Depends-Indep:
  python3-mock,
 Standards-Version: 4.5.0
 Homepage: {{ cookiecutter.homepage }}
-Vcs-Browser: https://git.launchpad.net/~ubuntu-server-dev/ubuntu/+source/{{ cookiecutter.repo_name }}
-Vcs-Git: https://git.launchpad.net/~ubuntu-server-dev/ubuntu/+source/{{ cookiecutter.repo_name }}
+Vcs-Browser: https://git.launchpad.net/~ubuntu-openstack-dev/ubuntu/+source/{{ cookiecutter.repo_name }}
+Vcs-Git: https://git.launchpad.net/~ubuntu-openstack-dev/ubuntu/+source/{{ cookiecutter.repo_name }}
 
 Package: python3-{{ cookiecutter.modulename }}
 Architecture: all

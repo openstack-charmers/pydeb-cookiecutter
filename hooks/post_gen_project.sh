@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-git init
+git init --initial-branch=master
 git add .
 git commit -a -m "Initial Cookiecutter Commit."
 
