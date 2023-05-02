@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-git init --initial-branch=master
+git init
 git add .
 git commit -a -m "Initial Cookiecutter Commit."
 
@@ -8,7 +8,7 @@ git commit -a -m "Initial Cookiecutter Commit."
 git checkout --orphan upstream
 git rm -rf .
 git commit --allow-empty -m 'Initial upstream branch.'
-git checkout -f master
+git checkout -f main
 
 # Import initial version using uscan and gbp
 upstream_version=$(dpkg-parsechangelog -S Version | cut -f 1 -d -)
